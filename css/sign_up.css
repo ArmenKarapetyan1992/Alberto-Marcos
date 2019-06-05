@@ -33,6 +33,7 @@ input{
 box-shadow: 0px 2px 17px 3px rgba(0, 0, 0, 0.13);
 background-color: #ffffff;
 text-align: center;
+  position: relative;
 }
 .company_logo{
   font-family: "OpenSans-Semibold";
@@ -110,6 +111,31 @@ color: #464646;
   font-size: 16px;
   margin: 20px 0 0px 0;
 color: #464646;
+}
+.sign_up_price{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-color: #074093;
+  color: #fff;
+  width: 53px;
+  height: 40px;
+  top: -20px;
+  left: 50px;
+  font-size: 20px;
+font-weight: 600;
+}
+.payment_tittle{
+  font-size: 20px;
+font-weight: 600;
+letter-spacing: 1.6px;
+color: #828282;
+width: 90%;
+margin: 70px auto 40px auto;
+}
+.payment_btn{
+  margin-bottom: 60px;
 }
 @media screen and (max-width:1500px){
   .sign_up_main{
@@ -249,5 +275,11 @@ color: #464646;
       font-size: 12px;
         margin: 20px 0 ;
   }
-
+  .payment_tittle{
+    font-size: 18px;
+  margin: 40px auto 30px auto;
+  }
+  .payment_btn{
+    margin-bottom: 30px;
+  }
 }
